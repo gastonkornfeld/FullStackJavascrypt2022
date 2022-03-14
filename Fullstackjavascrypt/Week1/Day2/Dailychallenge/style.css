@@ -17,6 +17,15 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+
+}
+.enemies-inner h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: navy;
+
 }
 
 nav {
@@ -56,20 +65,23 @@ a {
 .home-body {
     background-image: url("https://img.jakpost.net/c/2016/10/26/2016_10_26_14660_1477479380._large.jpg");
     height: calc(100vh - 100px);
+    color: navy;
 }
 
 .enemies-body {
-    background-image: url("https://img.jakpost.net/c/2016/10/26/2016_10_26_14660_1477479380._large.jpg");
+    background-image: url("https://img1.goodfon.com/wallpaper/nbig/8/21/doktor-strendzh-doctor-strange-poster-fantastika-fentezi-ben.jpg");
     height: calc(100vh - 100px);
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home-body p {
     font-size: 22px;
     height: 12%;
-    font-family: 'Courier New', Courier, monospace;
-    color:rgb(43, 5, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:navy;
 }
 
 .power-body {
@@ -77,6 +89,7 @@ a {
     height: calc(100vh - 100px);
     color: white;
     font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer {
@@ -105,8 +118,8 @@ footer {
 }
 
 .enemies div img {
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
 }
 
 .enemies-inner {
@@ -117,4 +130,5 @@ footer {
 
 .enemies div p {
     text-align: center;
+    color: navy;
 }
